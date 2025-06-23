@@ -209,3 +209,28 @@ def print_dataset_info(df, dataset_name="Dataset"):
         print(f"\nCategorical columns: {categorical_cols}")
         for col in categorical_cols:
             print(f"  {col}: {df[col].unique()}")
+
+# === Thêm các hàm cho notebook penguins ===
+def load_dataset(path, target_column):
+    """
+    Load dataset từ file CSV, tách X (features) và y (target)
+    """
+    df = pd.read_csv(path)
+    X = df.drop(columns=[target_column])
+    y = df[target_column]
+    return X, y
+
+def one_hot_encode(X):
+    """
+    One-hot encode tất cả các cột dạng object/categorical trong X
+    """
+    cat_cols = X.select_dtypes(include=['object', 'category']).columns.tolist()
+    X_encoded, _ = encode_categorical_features(X, cat_cols, method='onehot')
+    return X_encoded
+
+def stratified_split(X, y, test_size, random_state=42):
+    """
+    Tách train/test với stratify theo y
+    """
+    from sklearn.model_selection import train_test_split
+    return train_test_split(X, y, test_size=test_size, random_state=random_state, stratify=y)
