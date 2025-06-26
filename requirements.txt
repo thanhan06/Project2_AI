@@ -1,4 +1,4 @@
-# ✅ Requirements for Project 2 – Decision Tree Classifier
+# Requirements for Project 2 – Decision Tree Classifier
 
 pandas>=1.3
 numpy>=1.21

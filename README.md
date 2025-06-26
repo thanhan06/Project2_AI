@@ -2,14 +2,15 @@
 ```
 Project2_DecisionTree/
 ├── 📁 data/                     # Dữ liệu gốc
+│   ├── heart.csv
+│   ├── penguins.csv
+│   └── my_dataset.csv
 ├── 📁 notebooks/                # Jupyter notebooks phân tích
 │   ├── 1_heart_disease.ipynb
 │   ├── 2_penguins.ipynb
 │   ├── 3_custom_dataset.ipynb
-│   └── compare_datasets.ipynb
-├── 📁 reports/                  # Báo cáo và hình ảnh
+│   └── 4_compare_analysis.ipynb
 ├── requirements.txt             # Dependencies
-├── prompts_used.txt             # Lịch sử sử dụng prompt ChatGPT
 └── README.md                    # File mô tả dự án (file này)
 ```
 
