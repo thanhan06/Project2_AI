@@ -45,5 +45,3 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 Report
-Xem `reports/project2_report.pdf` để đọc chi tiết nhận xét, biểu đồ, phân tích từng tập dữ liệu.
