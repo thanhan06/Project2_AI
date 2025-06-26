@@ -1,4 +1,4 @@
-## 🏗️ Cấu trúc Project
+## Cấu trúc Project
 ```
 Project2_DecisionTree/
 ├── 📁 data/                     # Dữ liệu gốc
@@ -15,11 +15,11 @@ Project2_DecisionTree/
 
 ---
 
-# 📊 Project 2 – Decision Tree Classifier
+# Project 2 – Decision Tree Classifier
 
-## 👨‍🏫 Course: CS14003 – Introduction to Artificial Intelligence
+## Course: CS14003 – Introduction to Artificial Intelligence
 
-## 🔍 Tasks Implemented
+## Tasks Implemented
 - [x] Load & visualize 3 datasets
 - [x] Stratified train/test split with 4 ratios (40/60, 60/40, 80/20, 90/10)
 - [x] Train Decision Tree using Information Gain (entropy)
@@ -29,7 +29,7 @@ Project2_DecisionTree/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 1. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Notes
+## Notes
 - Cây quyết định hiển thị tối đa depth=3 để dễ quan sát
 - Phân tích ảnh hưởng `max_depth` thực hiện trên tập 80/20
 - `compare_datasets.ipynb` dùng để tổng hợp kết quả và trực quan hóa so sánh
